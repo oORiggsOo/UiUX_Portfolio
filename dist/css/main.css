@@ -5,6 +5,10 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -318,6 +322,14 @@ template {
   transition: all 0.75s ease-out;
   transform: translateZ(20px); }
 
+.busy_Form {
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 900px;
+  font-family: "Rajdhani", sans-serif; }
+
 body {
   justify-content: center;
   align-items: center;
@@ -342,11 +354,12 @@ h3 {
   font-weight: 400;
   margin: 0;
   padding: 1rem;
-  align-items: center; }
+  align-items: center;
+  font-family: "Rajdhani", sans-serif; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 1rem;
+    font-size: 3rem;
     border-radius: 10px; }
   h1.sm-heading,
   h2.sm-heading,
@@ -369,7 +382,7 @@ a {
   border-radius: 10px;
   padding: 1.3rem;
   background: linear-gradient(145deg, #140e11, #110e10);
-  box-shadow: inset 5px 5px 4px #090708, inset -5px -5px 4px #272125; }
+  box-shadow: inset 5px 5px 4px #090708, inset -5px -5px 4px #271c23; }
 
 .Logo {
   width: 300px;
@@ -385,12 +398,12 @@ a {
 .text-secondary {
   color: #ff00b4; }
 
-main {
+.main {
   padding: 1rem;
   height: 100%; }
-  main .icons {
+  .main .icons {
     margin-top: 1rem; }
-    main .icons a {
+    .main .icons a {
       padding: 0.4rem; }
-      main .icons a:hover {
+      .main .icons a:hover {
         color: #ff00b4; }

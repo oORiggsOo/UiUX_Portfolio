@@ -1,5 +1,7 @@
 @import "normalize";
 @import "cards";
+@import "forms";
+@import "config";
 
 $bG: #110e10;
 $mC: #ff00b4;
@@ -31,9 +33,10 @@ h3 {
     margin: 0;
     padding: 1rem;
     align-items: center;
+    font-family: $ft1;
 
     &.lg-heading {
-        font-size: 1rem;
+        font-size: 3rem;
         border-radius: 10px;
 
         //background: linear-gradient(145deg, #120f11, #1f131e);
@@ -64,7 +67,7 @@ a {
     border-radius: 10px;
     padding: 1.3rem;
     background: linear-gradient(145deg, #140e11, #110e10);
-    box-shadow: inset 5px 5px 4px #090708, inset -5px -5px 4px #272125;
+    box-shadow: inset 5px 5px 4px #090708, inset -5px -5px 4px #271c23;
 }
 .Logo {
     width: 300px;
@@ -82,7 +85,7 @@ a {
     color: $mC;
 }
 
-main {
+.main {
     padding: 1rem;
     height: 100%;
 
