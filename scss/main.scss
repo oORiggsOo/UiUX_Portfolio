@@ -1,16 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
 @import "normalize";
 @import "cards";
 
-$primary-color: #110e10;
-$secondary-color: #ff00b4;
+$bG: #110e10;
+$mC: #ff00b4;
 
 body {
     justify-content: center;
     align-items: center;
-    background: $primary-color;
-    color: $secondary-color;
-    font-family: "Rajdhani", sans-serif;
+    background: $bG;
+    color: $mC;
+    font-family: "$ft1";
     min-height: 100%;
     line-height: 1.3;
     margin: 1rem;
@@ -52,7 +51,7 @@ h3 {
 }
 
 a {
-    color: $secondary-color;
+    color: $mC;
     text-decoration: none;
 }
 
@@ -80,7 +79,7 @@ a {
 }
 
 .text-secondary {
-    color: $secondary-color;
+    color: $mC;
 }
 
 main {
@@ -94,7 +93,7 @@ main {
             padding: 0.4rem;
 
             &:hover {
-                color: $secondary-color;
+                color: $mC;
             }
         }
     }
