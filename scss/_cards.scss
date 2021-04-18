@@ -5,14 +5,12 @@
     height: 100%;
     border-radius: 10px;
     z-index: 2;
-    background: linear-gradient(15deg, #120f11, #1f131e);
-
+}
 
 .card {
     min-height: 300px;
     width: 300px;
     border-radius: 10px;
-
     transform: perspective(1000px);
     transform-style: preserve-3d;
 }

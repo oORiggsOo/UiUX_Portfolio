@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
 @import "normalize";
 @import "cards";
 
@@ -23,37 +23,36 @@ body {
     justify-content: center;
 }
 
-// Headings
-// h1,
-// h2,
-// h3 {
-//     font-weight: 400;
-//     margin: 0;
-//     padding: 1rem;
-//     align-items: center;
+h1,
+h2,
+h3 {
+    font-weight: 400;
+    margin: 0;
+    padding: 1rem;
+    align-items: center;
 
-//     &.lg-heading {
-//         font-size: 1rem;
-//         border-radius: 10px;
+    &.lg-heading {
+        font-size: 1rem;
+        border-radius: 10px;
 
-//         //background: linear-gradient(145deg, #120f11, #1f131e);
-//         // box-shadow: 5px 5px 1px #0b090a, -5px -5px 1px #171316;
-//     }
+        //background: linear-gradient(145deg, #120f11, #1f131e);
+        // box-shadow: 5px 5px 1px #0b090a, -5px -5px 1px #171316;
+    }
 
-//     &.sm-heading {
-//         max-width: 300px;
-//         margin-bottom: 1rem;
-//         padding: 1rem;
-//         border-radius: 10px;
-//         // background: linear-gradient(145deg, #120f11, #1f131e);
-//         // box-shadow: inset 5px 5px 0px #0b090a, inset -5px -5px 0px #171316;
-//     }
-// }
+    &.sm-heading {
+        max-width: 300px;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 10px;
+        // background: linear-gradient(145deg, #120f11, #1f131e);
+        // box-shadow: inset 5px 5px 0px #0b090a, inset -5px -5px 0px #171316;
+    }
+}
 
-// a {
-//     color: $secondary-color;
-//     text-decoration: none;
-// }
+a {
+    color: $secondary-color;
+    text-decoration: none;
+}
 
 #hero .container {
     display: flex;
@@ -63,42 +62,41 @@ body {
     max-width: 300px;
     border-radius: 10px;
     padding: 1.3rem;
-    background: linear-gradient(15deg, #120f11, #1f131e);
-    box-shadow: inset 5px 5px 0px #0b090a, inset -5px -5px 0px #171316;
+    background: linear-gradient(145deg, #140e11, #110e10);
+    box-shadow: inset 5px 5px 4px #090708, inset -5px -5px 4px #272125;
 }
 .Logo {
     width: 300px;
     margin-bottom: 2rem;
     border-radius: 10px;
-    background: $primary-color;
-    background: linear-gradient(145deg, #120f11, #1f131e);
-    box-shadow: 5px 5px 1px #0b090a, -5px -5px 1px #171316;
+    background: linear-gradient(145deg, #25161f, #0f0d0e);
+    box-shadow: 5px 5px 4px #090708, -5px -5px 4px #191518;
 }
 .qrImage {
     max-height: 300px;
     align-items: center;
 }
 
-// .text-secondary {
-//     color: $secondary-color;
-// }
+.text-secondary {
+    color: $secondary-color;
+}
 
-// main {
-//     padding: 1rem;
-//     height: 100%;
+main {
+    padding: 1rem;
+    height: 100%;
 
-//     .icons {
-//         margin-top: 1rem;
+    .icons {
+        margin-top: 1rem;
 
-//         a {
-//             padding: 0.4rem;
+        a {
+            padding: 0.4rem;
 
-//             &:hover {
-//                 color: $secondary-color;
-//             }
-//         }
-//     }
-// }
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
+}
 
 // border-radius: 24px;
 // background: linear-gradient(145deg, #120f11, #0f0d0e);
