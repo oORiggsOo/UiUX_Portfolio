@@ -304,14 +304,6 @@ template {
 [hidden] {
   display: none; }
 
-.cardcontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  border-radius: 10px;
-  z-index: 2; }
-
 .card {
   min-height: 300px;
   width: 300px;
