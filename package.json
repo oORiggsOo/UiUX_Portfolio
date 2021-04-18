@@ -10,5 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "vanilla-tilt": "^1.7.0"
   }
 }

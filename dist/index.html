@@ -6,22 +6,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv=X-UA-Compatible" content="ie=edge">
         <meta name="description" content="First Contact" />
-        <meta name="keywords" content="web development, web design, fullstack, mern, docker, cloud, contanier" />
-        <link rel="stylesheet" href="css/main.css" />
+        <meta
+            name="keywords"
+            content="web development, web design, fullstack, mern, docker, cloud, contanier"
+        />
+        <link rel="stylesheet" href="/dist/css/main.css" />
         <title>JesseBlair.ca</title>
     </head>
     <body>
-        <header>
-        </header>
-        <main id="home">
+        <div id="hero">
             <div class="container">
-            <img class="Logo" src="img/Mylogo.svg" />
-                <div class="coontainer">
-                <img class="qrInfo" src="img/qr-code.svg" />
-            </div>
+                <div class="carcontainer">
+                    <img class="Logo" src="img/Mylogo.svg" />
+                    <div class="card" data-tilt>
+                        <div class="Qr">
+                            <img
+                                class="qrImage"
+                                src="/dist/img/qr-code.svg"
+                                alt="qr-code"
+                            />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </main>
-        <script scr="js/main.js"></script>
+        <script type="text/javascript" src="/dist/js/vanilla-tilt.js"></script>
     </body>
 </html>
