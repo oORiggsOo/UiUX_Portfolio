@@ -11,7 +11,7 @@
     min-height: 300px;
     width: 300px;
     border-radius: 10px;
-    transform: perspective(1000px);
+    transform: perspective(2000px);
     transform-style: preserve-3d;
 }
 
@@ -21,5 +21,32 @@
     justify-content: center;
     border-radius: 10px;
     transition: all 0.75s ease-out;
-    transform: translateZ(10px);
+    transform: translateZ(20px);
 }
+
+// https://stackoverflow.com/questions/51042312/background-image-border-radius-white-corners
+
+// .card-container {
+//     width: 260px;
+//     height: 380px;
+//     background-position: 50% center;
+//     background-size: cover;
+//     border-radius: 15px;
+//     overflow: hidden;
+//   }
+//   .card-container:hover {
+//     box-shadow: 0 20px 70px -30px rgba(51, 51, 51, 0.7), 0 50px 100px 0 rgba(51, 51, 51, 0.2);
+//     z-index: 10;
+//     -webkit-transform: translateZ(-50px);
+//     transform: translateZ(-50px);
+//     -webkit-transition: .3s;
+//     transition: .3s;
+//   }
+//   .card-container:hover:after {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+//     width: 100%;
+//   }
