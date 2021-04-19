@@ -322,7 +322,7 @@ template {
   transition: all 0.75s ease-out;
   transform: translateZ(20px); }
 
-.busy_Form {
+.form-control {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -331,7 +331,6 @@ template {
 
 .form-group {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
@@ -376,11 +375,17 @@ h3 {
     padding: 1rem;
     border-radius: 10px; }
 
+p {
+  margin: 0;
+  padding: 1rem;
+  align-items: center;
+  font-family: "Rajdhani", sans-serif; }
+
 a {
   color: #ff00b4;
   text-decoration: none; }
 
-#hero .container {
+.container {
   display: flex;
   flex-flow: column;
   align-items: center;

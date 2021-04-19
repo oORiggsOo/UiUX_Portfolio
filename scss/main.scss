@@ -3,9 +3,6 @@
 @import "forms";
 @import "config";
 
-$bG: #110e10;
-$mC: #ff00b4;
-
 body {
     justify-content: center;
     align-items: center;
@@ -38,9 +35,6 @@ h3 {
     &.lg-heading {
         font-size: 3rem;
         border-radius: 10px;
-
-        //background: linear-gradient(145deg, #120f11, #1f131e);
-        // box-shadow: 5px 5px 1px #0b090a, -5px -5px 1px #171316;
     }
 
     &.sm-heading {
@@ -48,9 +42,14 @@ h3 {
         margin-bottom: 1rem;
         padding: 1rem;
         border-radius: 10px;
-        // background: linear-gradient(145deg, #120f11, #1f131e);
-        // box-shadow: inset 5px 5px 0px #0b090a, inset -5px -5px 0px #171316;
     }
+}
+
+p {
+    margin: 0;
+    padding: 1rem;
+    align-items: center;
+    font-family: $ft1;
 }
 
 a {
@@ -58,7 +57,7 @@ a {
     text-decoration: none;
 }
 
-#hero .container {
+.container {
     display: flex;
     flex-flow: column;
     align-items: center;
