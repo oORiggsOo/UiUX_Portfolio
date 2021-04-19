@@ -323,11 +323,18 @@ template {
   transform: translateZ(20px); }
 
 .busy_Form {
-  display: flexbox;
-  flex-direction: column;
+  display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  max-width: 900px;
+  justify-content: center;
+  border-radius: 10px;
+  font-family: "Rajdhani", sans-serif; }
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
   font-family: "Rajdhani", sans-serif; }
 
 body {
