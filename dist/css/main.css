@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -5,8 +7,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 html {
@@ -307,6 +307,51 @@ template {
 [hidden] {
   display: none; }
 
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  margin: 0;
+  padding: 1rem;
+  align-items: center;
+  font-family: "Rajdhani", sans-serif; }
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 3rem;
+    border-radius: 10px; }
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
+    max-width: 300px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px; }
+
+p {
+  margin: 0;
+  padding: 1rem;
+  align-items: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1rem; }
+
+a {
+  color: #ff00b4;
+  text-decoration: none; }
+
+.text-secondary {
+  color: #ff00b4; }
+
+.main {
+  padding: 1rem;
+  height: 100%; }
+  .main .icons {
+    margin-top: 1rem; }
+    .main .icons a {
+      padding: 0.4rem; }
+      .main .icons a:hover {
+        color: #ff00b4; }
+
 .card {
   min-height: 300px;
   width: 300px;
@@ -354,37 +399,6 @@ body {
   justify-content: center;
   border-radius: 10px; }
 
-h1,
-h2,
-h3 {
-  font-weight: 400;
-  margin: 0;
-  padding: 1rem;
-  align-items: center;
-  font-family: "Rajdhani", sans-serif; }
-  h1.lg-heading,
-  h2.lg-heading,
-  h3.lg-heading {
-    font-size: 3rem;
-    border-radius: 10px; }
-  h1.sm-heading,
-  h2.sm-heading,
-  h3.sm-heading {
-    max-width: 300px;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border-radius: 10px; }
-
-p {
-  margin: 0;
-  padding: 1rem;
-  align-items: center;
-  font-family: "Rajdhani", sans-serif; }
-
-a {
-  color: #ff00b4;
-  text-decoration: none; }
-
 .container {
   display: flex;
   flex-flow: column;
@@ -406,16 +420,3 @@ a {
 .qrImage {
   max-height: 300px;
   align-items: center; }
-
-.text-secondary {
-  color: #ff00b4; }
-
-.main {
-  padding: 1rem;
-  height: 100%; }
-  .main .icons {
-    margin-top: 1rem; }
-    .main .icons a {
-      padding: 0.4rem; }
-      .main .icons a:hover {
-        color: #ff00b4; }

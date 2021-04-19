@@ -1,7 +1,8 @@
+@import "config";
 @import "normalize";
+@import "utilities";
 @import "cards";
 @import "forms";
-@import "config";
 
 body {
     justify-content: center;
@@ -21,40 +22,6 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-}
-
-h1,
-h2,
-h3 {
-    font-weight: 400;
-    margin: 0;
-    padding: 1rem;
-    align-items: center;
-    font-family: $ft1;
-
-    &.lg-heading {
-        font-size: 3rem;
-        border-radius: 10px;
-    }
-
-    &.sm-heading {
-        max-width: 300px;
-        margin-bottom: 1rem;
-        padding: 1rem;
-        border-radius: 10px;
-    }
-}
-
-p {
-    margin: 0;
-    padding: 1rem;
-    align-items: center;
-    font-family: $ft1;
-}
-
-a {
-    color: $mC;
-    text-decoration: none;
 }
 
 .container {
@@ -79,43 +46,3 @@ a {
     max-height: 300px;
     align-items: center;
 }
-
-.text-secondary {
-    color: $mC;
-}
-
-.main {
-    padding: 1rem;
-    height: 100%;
-
-    .icons {
-        margin-top: 1rem;
-
-        a {
-            padding: 0.4rem;
-
-            &:hover {
-                color: $mC;
-            }
-        }
-    }
-}
-
-// border-radius: 24px;
-// background: linear-gradient(145deg, #120f11, #0f0d0e);
-// box-shadow:  5px 5px 0px #0b090a,
-//              -5px -5px 0px #171316;
-
-// border-radius: 24px;
-// background: #110e10;
-// box-shadow: inset 5px 5px 0px #0b090a,
-//             inset -5px -5px 0px #171316;
-
-// border-radius: 24px;
-// background: linear-gradient(145deg, #120f11, #0f0d0e);
-// box-shadow:  5px 5px 10px #0b090a,
-//              -5px -5px 10px #171316;
-
-// border-radius: 24px;
-// background: #110e10;
-// box-shadow: inset 5px 5px 10px #0b090a, inset -5px -5px 10px #171316;
