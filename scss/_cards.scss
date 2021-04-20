@@ -24,6 +24,11 @@
     transform: translateZ(20px);
 }
 
+.qrImage {
+    max-height: 300px;
+    align-items: center;
+}
+
 // https://stackoverflow.com/questions/51042312/background-image-border-radius-white-corners
 
 // .card-container {

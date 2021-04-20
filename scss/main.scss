@@ -5,6 +5,7 @@
 @import "forms";
 
 body {
+    display: flex;
     justify-content: center;
     align-items: center;
     background: $bG;
@@ -42,7 +43,11 @@ body {
     background: linear-gradient(145deg, #25161f, #0f0d0e);
     box-shadow: 5px 5px 4px #090708, -5px -5px 4px #191518;
 }
-.qrImage {
-    max-height: 300px;
+.Qr {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.75s ease-out;
+    transform: translateZ(20px);
 }

@@ -1,17 +1,42 @@
+@import "cards";
 @import "config";
+@import "utilities";
 
-.form-control {
+.form-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    font-family: $ft1;
+    flex-flow: column;
+    max-width: 300px;
+    min-width: 300px;
+    background: linear-gradient(145deg, #1f151a, #110e10);
+    box-shadow: 5px 5px 0px #0b090a, -5px -5px 0px #171316;
 }
 
 .form-group {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1.8rem;
     border-radius: 10px;
     font-family: $ft1;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 10px;
+    color: $mC;
+    border: none;
+    font-family: $ft1;
+    background: linear-gradient(290deg, #1f151a, #110e10);
+    box-shadow: inset 1px 1px 1px #0b090a, inset -1px -1px 1px #171316;
+}
+
+.Qrc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }

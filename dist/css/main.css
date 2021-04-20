@@ -367,21 +367,111 @@ a {
   transition: all 0.75s ease-out;
   transform: translateZ(20px); }
 
-.form-control {
+.qrImage {
+  max-height: 300px;
+  align-items: center; }
+
+.card {
+  min-height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  transform: perspective(2000px);
+  transform-style: preserve-3d; }
+
+.Qr {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  transition: all 0.75s ease-out;
+  transform: translateZ(20px); }
+
+.qrImage {
+  max-height: 300px;
+  align-items: center; }
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  margin: 0;
+  padding: 1rem;
+  align-items: center;
   font-family: "Rajdhani", sans-serif; }
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 3rem;
+    border-radius: 10px; }
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
+    max-width: 300px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px; }
+
+p {
+  margin: 0;
+  padding: 1rem;
+  align-items: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1rem; }
+
+a {
+  color: #ff00b4;
+  text-decoration: none; }
+
+.text-secondary {
+  color: #ff00b4; }
+
+.main {
+  padding: 1rem;
+  height: 100%; }
+  .main .icons {
+    margin-top: 1rem; }
+    .main .icons a {
+      padding: 0.4rem; }
+      .main .icons a:hover {
+        color: #ff00b4; }
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  max-width: 300px;
+  min-width: 300px;
+  background: linear-gradient(145deg, #1f151a, #110e10);
+  box-shadow: 5px 5px 0px #0b090a, -5px -5px 0px #171316; }
 
 .form-group {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1.8rem;
   border-radius: 10px;
   font-family: "Rajdhani", sans-serif; }
 
+.form-control {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-radius: 10px;
+  color: #ff00b4;
+  border: none;
+  font-family: "Rajdhani", sans-serif;
+  background: linear-gradient(290deg, #1f151a, #110e10);
+  box-shadow: inset 1px 1px 1px #0b090a, inset -1px -1px 1px #171316; }
+
+.Qrc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; }
+
 body {
+  display: flex;
   justify-content: center;
   align-items: center;
   background: #110e10;
@@ -417,6 +507,10 @@ body {
   background: linear-gradient(145deg, #25161f, #0f0d0e);
   box-shadow: 5px 5px 4px #090708, -5px -5px 4px #191518; }
 
-.qrImage {
-  max-height: 300px;
-  align-items: center; }
+.Qr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all 0.75s ease-out;
+  transform: translateZ(20px); }
