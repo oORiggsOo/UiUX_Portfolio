@@ -4,6 +4,12 @@
 @import "cards";
 @import "forms";
 
+* {
+    margin: 0px;
+    top: 0px;
+    align-items: centr;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -23,16 +29,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    //width: 100%;
     border-radius: 10px;
+    padding: 3rem;
 }
 
 .container {
     display: flex;
-    flex-flow: column;
+    flex-flow: wrap;
+    flex-grow: 1;
     align-items: center;
     justify-content: center;
-    width: 800px;
+    width: 300px;
     border-radius: 10px;
     padding: 1.3rem;
     background: linear-gradient(145deg, #140e11, #110e10);
@@ -45,6 +53,19 @@ body {
     background: linear-gradient(145deg, #25161f, #0f0d0e);
     box-shadow: 5px 5px 4px #090708, -5px -5px 4px #191518;
 }
+
+// .right {
+//     display: flex;
+//     flex-flow: wrap;
+//     align-items: center;
+//     justify-content: center;
+//     width: 280px;
+//     border-radius: 10px;
+//     padding: 1.3rem;
+//     margin: 1rem;
+//     background: linear-gradient(145deg, #140e11, #110e10);
+//     box-shadow: inset 5px 5px 4px #090708, inset -5px -5px 4px #271c23;
+// }
 
 .Qr {
     display: flex;

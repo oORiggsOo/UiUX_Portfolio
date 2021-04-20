@@ -471,6 +471,11 @@ a {
   justify-content: center;
   border-radius: 10px; }
 
+* {
+  margin: 0px;
+  top: 0px;
+  align-items: centr; }
+
 body {
   display: flex;
   justify-content: center;
@@ -489,15 +494,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  border-radius: 10px; }
+  border-radius: 10px;
+  padding: 3rem; }
 
 .container {
   display: flex;
-  flex-flow: column;
+  flex-flow: wrap;
+  flex-grow: 1;
   align-items: center;
   justify-content: center;
-  width: 800px;
+  width: 300px;
   border-radius: 10px;
   padding: 1.3rem;
   background: linear-gradient(145deg, #140e11, #110e10);
