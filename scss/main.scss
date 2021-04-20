@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     background: $bG;
     color: $mC;
     font-family: "$ft1";
@@ -22,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -30,7 +32,7 @@ body {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    max-width: 300px;
+    width: 800px;
     border-radius: 10px;
     padding: 1.3rem;
     background: linear-gradient(145deg, #140e11, #110e10);
@@ -43,6 +45,7 @@ body {
     background: linear-gradient(145deg, #25161f, #0f0d0e);
     box-shadow: 5px 5px 4px #090708, -5px -5px 4px #191518;
 }
+
 .Qr {
     display: flex;
     align-items: center;

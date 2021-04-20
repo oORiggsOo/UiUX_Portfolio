@@ -475,6 +475,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   background: #110e10;
   color: #ff00b4;
   font-family: "$ft1";
@@ -488,6 +489,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   border-radius: 10px; }
 
 .container {
@@ -495,7 +497,7 @@ body {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  max-width: 300px;
+  width: 800px;
   border-radius: 10px;
   padding: 1.3rem;
   background: linear-gradient(145deg, #140e11, #110e10);
