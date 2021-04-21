@@ -10,7 +10,6 @@
     },
     "author": "JesseBlair",
     "license": "MIT",
-    "dependencies": {},
     "devDependencies": {
         "node-sass": "^4.14.1",
         "nodemon": "^2.0.7",
