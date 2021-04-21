@@ -1,17 +1,19 @@
 {
-  "name": "uiux_portfolio",
-  "version": "1.0.0",
-  "description": "Portfolio",
-  "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-  },
-  "author": "JesseBlair",
-  "license": "MIT",
-  "dependencies": {
-    "node-sass": "^4.14.1"
-  },
-  "devDependencies": {
-    "vanilla-tilt": "^1.7.0"
-  }
+    "name": "HeroPage",
+    "version": "1.0.0",
+    "description": "Portfolio",
+    "main": "index.js",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+        "build-css": "node-sass --include-path scss scss/main.scss dist/css/main.css",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "author": "JesseBlair",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "node-sass": "^4.14.1",
+        "nodemon": "^2.0.7",
+        "vanilla-tilt": "^1.7.0"
+    }
 }
