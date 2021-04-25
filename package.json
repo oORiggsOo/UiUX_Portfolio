@@ -2,7 +2,7 @@
     "name": "heropage",
     "version": "1.0.0",
     "description": "Portfolio",
-    "main": "app.js",
+    "main": "HeroPage.js",
     "scripts": {
         "start": "nodemon app.js",
         "sass": "node-sass -w scss/ -o dist/ --recursive",
