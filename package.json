@@ -1,12 +1,12 @@
 {
-    "name": "HeroPage",
+    "name": "heropage",
     "version": "1.0.0",
     "description": "Portfolio",
     "main": "app.js",
     "scripts": {
         "start": "nodemon app.js",
-        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-        "build-css": "node-sass --include-path scss scss/main.scss dist/css/main.css",
+        "sass": "node-sass -w scss/ -o dist/ --recursive",
+        "build-css": "node-sass --include-path scss scss/main.scss dist/main.css",
         "watch-css": "nodemon -e scss -x \"npm run build-css\""
     },
     "author": "JesseBlair",
