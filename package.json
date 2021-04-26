@@ -4,7 +4,8 @@
     "description": "Portfolio",
     "main": "HeroPage.js",
     "scripts": {
-        "start": "nodemon app.js",
+        "start": "node HeroPage.js",
+        "nodestart": "nodemon HeroPage.js",
         "sass": "node-sass -w scss/ -o dist/ --recursive",
         "build-css": "node-sass --include-path scss scss/main.scss dist/main.css",
         "watch-css": "nodemon -e scss -x \"npm run build-css\""
