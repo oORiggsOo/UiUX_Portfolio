@@ -7,14 +7,15 @@
 * {
     margin: 0px;
     top: 0px;
-    align-items: centr;
+    align-items: center;
+    background-color: $bG;
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100wh;
+    // width: 100vw;
     background-color: $bG;
     color: $mC;
     font-family: "$ft1";
