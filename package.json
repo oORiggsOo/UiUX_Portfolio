@@ -1,21 +1,25 @@
 {
-    "name": "heropage",
-    "version": "1.0.0",
-    "description": "Portfolio",
-    "main": "HeroPage.js",
-    "scripts": {
-        "start": "nodemon HeroPage.js",
-        "nodestart": "node HeroPage.js",
-        "sass": "node-sass -w scss/ -o dist/ --recursive",
-        "build-css": "node-sass --include-path scss scss/main.scss dist/main.css",
-        "watch-css": "nodemon -e scss -x \"npm run build-css\""
-    },
-    "author": "JesseBlair",
-    "license": "MIT",
-    "dependencies": {
-        "express": "^4.17.1",
-        "node-sass": "^4.14.1",
-        "nodemon": "^2.0.7",
-        "vanilla-tilt": "^1.7.0"
-    }
+	"name": "heropage",
+	"version": "1.0.0",
+	"description": "Portfolio",
+	"main": "HeroPage.js",
+	"scripts": {
+		"start": "nodemon HeroPage.js",
+		"nodestart": "node HeroPage.js",
+		"sass": "node-sass -w scss/ -o dist/ --recursive",
+		"build-css": "node-sass --include-path scss scss/main.scss dist/main.css",
+		"watch-css": "nodemon -e scss -x \"npm run build-css\""
+	},
+	"author": "JesseBlair",
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^4.1.1",
+		"express": "^4.17.1",
+		"node-sass": "^4.14.1",
+		"save": "^2.4.0",
+		"vanilla-tilt": "^1.7.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
 }

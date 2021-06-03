@@ -26,7 +26,7 @@ const pkg = require('./package.json');
 
 const start = Date.now(),
   protocol = process.env.PROTOCOL || 'https',
-  port = process.env.PORT || '3000',
+  port = process.env.PORT || '5000',
   host = process.env.HOST || 'localhost';
 
 let server;
